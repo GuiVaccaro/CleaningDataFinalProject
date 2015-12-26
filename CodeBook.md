@@ -55,84 +55,84 @@ In the resulting dataset:
 
 ## Variables
 
- 1 Subject                         - Subject's ID (Integer, range 1:30)
- 2 Activity                        - Activity performed during data collection (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
- 3 tBodyAcc-mean()-X               - Mean Body Linear Acceleration - X - time domain (normalized and bounded within [-1;1])
- 4 tBodyAcc-mean()-Y               - Mean Body Linear Acceleration - Y - time domain (normalized and bounded within [-1;1])
- 5 tBodyAcc-mean()-Z               - Mean Body Linear Acceleration - Z - time domain (normalized and bounded within [-1;1])
- 6 tBodyAcc-std()-X                - Standard Deviation Body Linear Acceleration - X - time domain (normalized and bounded within [-1;1])
- 7 tBodyAcc-std()-Y                - Standard Deviation Body Linear Acceleration - Y - time domain (normalized and bounded within [-1;1])
- 8 tBodyAcc-std()-Z                - Standard Deviation Body Linear Acceleration - Z - time domain (normalized and bounded within [-1;1])
- 9 tGravityAcc-mean()-X            - Mean Gravity Linear Acceleration - X - time domain (normalized and bounded within [-1;1])
-10 tGravityAcc-mean()-Y            - Mean Gravity Linear Acceleration - Y - time domain (normalized and bounded within [-1;1])
-11 tGravityAcc-mean()-Z            - Mean Gravity Linear Acceleration - Z - time domain (normalized and bounded within [-1;1])
-12 tGravityAcc-std()-X             - Standard Deviation Gravity Linear Acceleration - X - time domain (normalized and bounded within [-1;1])
-13 tGravityAcc-std()-Y             - Standard Deviation Gravity Linear Acceleration - Y - time domain (normalized and bounded within [-1;1])
-14 tGravityAcc-std()-Z             - Standard Deviation Gravity Linear Acceleration - Z - time domain (normalized and bounded within [-1;1])
-15 tBodyAccJerk-mean()-X           - Mean Jerk Signal Body Linear Acceleration - X - time domain (normalized and bounded within [-1;1])
-16 tBodyAccJerk-mean()-Y           - Mean Jerk Signal Body Linear Acceleration - Y - time domain (normalized and bounded within [-1;1])
-17 tBodyAccJerk-mean()-Z           - Mean Jerk Signal Body Linear Acceleration - Z - time domain (normalized and bounded within [-1;1])
-18 tBodyAccJerk-std()-X            - Standard Deviation Jerk Signal Body Linear Acceleration - X - time domain (normalized and bounded within [-1;1])
-19 tBodyAccJerk-std()-Y            - Standard Deviation Jerk Signal Body Linear Acceleration - Y - time domain (normalized and bounded within [-1;1])
-20 tBodyAccJerk-std()-Z            - Standard Deviation Jerk Signal Body Linear Acceleration - Z - time domain (normalized and bounded within [-1;1])
-21 tBodyGyro-mean()-X              - Mean Body Angular Acceleration - X - time domain (normalized and bounded within [-1;1])
-22 tBodyGyro-mean()-Y              - Mean Body Angular Acceleration - Y - time domain (normalized and bounded within [-1;1])
-23 tBodyGyro-mean()-Z              - Mean Body Angular Acceleration - Z - time domain (normalized and bounded within [-1;1])
-24 tBodyGyro-std()-X               - Standard Deviation Body Angular Acceleration - X - time domain (normalized and bounded within [-1;1])
-25 tBodyGyro-std()-Y               - Standard Deviation Body Angular Acceleration - Y - time domain (normalized and bounded within [-1;1])
-26 tBodyGyro-std()-Z               - Standard Deviation Body Angular Acceleration - Z - time domain (normalized and bounded within [-1;1])
-27 tBodyGyroJerk-mean()-X          - Mean Jerk Signal Body Angular Acceleration - X - time domain (normalized and bounded within [-1;1])
-28 tBodyGyroJerk-mean()-Y          - Mean Jerk Signal Body Angular Acceleration - Y - time domain (normalized and bounded within [-1;1])
-29 tBodyGyroJerk-mean()-Z          - Mean Jerk Signal Body Angular Acceleration - Z - time domain (normalized and bounded within [-1;1])
-30 tBodyGyroJerk-std()-X           - Standard Deviation Jerk Signal Body Angular Acceleration - X - time domain (normalized and bounded within [-1;1])
-31 tBodyGyroJerk-std()-Y           - Standard Deviation Jerk Signal Body Angular Acceleration - Y - time domain (normalized and bounded within [-1;1])
-32 tBodyGyroJerk-std()-Z           - Standard Deviation Jerk Signal Body Angular Acceleration - Z - time domain (normalized and bounded within [-1;1])
-33 tBodyAccMag-mean()              - Mean Magnitude Body Linear Acceleration - time domain (normalized and bounded within [-1;1])
-34 tBodyAccMag-std()               - Standard Deviation Magnitude Body Linear Acceleration - time domain (normalized and bounded within [-1;1])
-35 tGravityAccMag-mean()           - Mean Magnitude Gravity Linear Acceleration - time domain (normalized and bounded within [-1;1])
-36 tGravityAccMag-std()            - Standard Deviation Magnitude Gravity Linear Acceleration - time domain (normalized and bounded within [-1;1])
-37 tBodyAccJerkMag-mean()          - Mean Magnitude Jerk Signal Body Linear Acceleration - time domain (normalized and bounded within [-1;1])
-38 tBodyAccJerkMag-std()           - Standard Deviation Magnitude Jerk Signal Body Linear Acceleration - time domain (normalized and bounded within [-1;1])
-39 tBodyGyroMag-mean()             - Mean Magnitude Body Angular Acceleration - time domain (normalized and bounded within [-1;1])
-40 tBodyGyroMag-std()              - Standard Deviation Magnitude Body Angular Acceleration - time domain (normalized and bounded within [-1;1])
-41 tBodyGyroJerkMag-mean()         - Mean Magnitude Jerk Signal Body Angular Acceleration - time domain (normalized and bounded within [-1;1])
-42 tBodyGyroJerkMag-std()          - Standard Deviation Magnitude Jerk Signal Body Angular Acceleration - time domain (normalized and bounded within [-1;1])
-43 fBodyAcc-mean()-X               - Mean Body Linear Acceleration - X - frequency domain (normalized and bounded within [-1;1])
-44 fBodyAcc-mean()-Y               - Mean Body Linear Acceleration - Y - frequency domain (normalized and bounded within [-1;1])
-45 fBodyAcc-mean()-Z               - Mean Body Linear Acceleration - Z - frequency domain (normalized and bounded within [-1;1])
-46 fBodyAcc-std()-X                - Standard Deviation Body Linear Acceleration - X - frequency domain (normalized and bounded within [-1;1])
-47 fBodyAcc-std()-Y                - Standard Deviation Body Linear Acceleration - Y - frequency domain (normalized and bounded within [-1;1])
-48 fBodyAcc-std()-Z                - Standard Deviation Body Linear Acceleration - Z - frequency domain (normalized and bounded within [-1;1])
-49 fBodyAcc-meanFreq()-X           - Weighted Average of the Frequency Components Body Linear Acceleration - X - frequency domain (normalized and bounded within [-1;1])
-50 fBodyAcc-meanFreq()-Y           - Weighted Average of the Frequency Components Body Linear Acceleration - Y - frequency domain (normalized and bounded within [-1;1])
-51 fBodyAcc-meanFreq()-Z           - Weighted Average of the Frequency Components Body Linear Acceleration - Z - frequency domain (normalized and bounded within [-1;1])
-52 fBodyAccJerk-mean()-X           - Mean Jerk Signal Body Linear Acceleration - X - frequency domain (normalized and bounded within [-1;1])
-53 fBodyAccJerk-mean()-Y           - Mean Jerk Signal Body Linear Acceleration - Y - frequency domain (normalized and bounded within [-1;1])
-54 fBodyAccJerk-mean()-Z           - Mean Jerk Signal Body Linear Acceleration - Z - frequency domain (normalized and bounded within [-1;1])
-55 fBodyAccJerk-std()-X            - Standard Deviation Jerk Signal Body Linear Acceleration - X - frequency domain (normalized and bounded within [-1;1])
-56 fBodyAccJerk-std()-Y            - Standard Deviation Jerk Signal Body Linear Acceleration - Y - frequency domain (normalized and bounded within [-1;1])
-57 fBodyAccJerk-std()-Z            - Standard Deviation Jerk Signal Body Linear Acceleration - Z - frequency domain (normalized and bounded within [-1;1])
-58 fBodyAccJerk-meanFreq()-X       - Weighted Average of the Frequency Components Jerk Signal Body Linear Acceleration - X - frequency domain (normalized and bounded within [-1;1])
-59 fBodyAccJerk-meanFreq()-Y       - Weighted Average of the Frequency Components Jerk Signal Body Linear Acceleration - Y - frequency domain (normalized and bounded within [-1;1])
-60 fBodyAccJerk-meanFreq()-Z       - Weighted Average of the Frequency Components Jerk Signal Body Linear Acceleration - Z - frequency domain (normalized and bounded within [-1;1])
-61 fBodyGyro-mean()-X              - Mean Body Angular Acceleration - X - frequency domain (normalized and bounded within [-1;1])
-62 fBodyGyro-mean()-Y              - Mean Body Angular Acceleration - Y - frequency domain (normalized and bounded within [-1;1])
-63 fBodyGyro-mean()-Z              - Mean Body Angular Acceleration - Z - frequency domain (normalized and bounded within [-1;1])
-64 fBodyGyro-std()-X               - Standard Deviation Body Angular Acceleration - X - frequency domain (normalized and bounded within [-1;1])
-65 fBodyGyro-std()-Y               - Standard Deviation Body Angular Acceleration - Y - frequency domain (normalized and bounded within [-1;1])
-66 fBodyGyro-std()-Z               - Standard Deviation Body Angular Acceleration - Z - frequency domain (normalized and bounded within [-1;1])
-67 fBodyGyro-meanFreq()-X          - Weighted Average of the Frequency Components Body Angular Acceleration - X - frequency domain (normalized and bounded within [-1;1])
-68 fBodyGyro-meanFreq()-Y          - Weighted Average of the Frequency Components Body Angular Acceleration - Y - frequency domain (normalized and bounded within [-1;1])
-69 fBodyGyro-meanFreq()-Z          - Weighted Average of the Frequency Components Body Angular Acceleration - Z - frequency domain (normalized and bounded within [-1;1])
-70 fBodyAccMag-mean()              - Mean Magnitude Body Linear Acceleration - frequency domain (normalized and bounded within [-1;1])
-71 fBodyAccMag-std()               - Standard Deviation Magnitude Body Linear Acceleration - frequency domain (normalized and bounded within [-1;1])
-72 fBodyAccMag-meanFreq()          - Weighted Average of the Frequency Components Magnitude Body Linear Acceleration - frequency domain (normalized and bounded within [-1;1])
-73 fBodyBodyAccJerkMag-mean()      - Mean Magnitude Jerk Signal Body Linear Acceleration - frequency domain (normalized and bounded within [-1;1])
-74 fBodyBodyAccJerkMag-std()       - Standard Deviation Magnitude Jerk Signal Body Linear Acceleration - frequency domain (normalized and bounded within [-1;1])
-75 fBodyBodyAccJerkMag-meanFreq()  - Weighted Average of the Frequency Components Magnitude Jerk Signal Body Linear Acceleration - frequency domain (normalized and bounded within [-1;1])
-76 fBodyBodyGyroMag-mean()         - Mean Magnitude Body Angular Acceleration - frequency domain (normalized and bounded within [-1;1])
-77 fBodyBodyGyroMag-std()          - Standard Deviation Magnitude Body Angular Acceleration - frequency domain (normalized and bounded within [-1;1])
-78 fBodyBodyGyroMag-meanFreq()     - Weighted Average of the Frequency Components Magnitude Body Angular Acceleration - frequency domain (normalized and bounded within [-1;1])
-79 fBodyBodyGyroJerkMag-mean()     - Mean Magnitude Jerk Signal Body Angular Acceleration - frequency domain (normalized and bounded within [-1;1])
-80 fBodyBodyGyroJerkMag-std()      - Standard Deviation Magnitude Jerk Signal Body Angular Acceleration - frequency domain (normalized and bounded within [-1;1])
-81 fBodyBodyGyroJerkMag-meanFreq() - Weighted Average of the Frequency Components Magnitude Jerk Signal Body Angular Acceleration - frequency domain (normalized and bounded within [-1;1])
+1. Subject                         - Subject's ID (Integer, range 1:30).
+2. Activity                        - Activity performed during data collection (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
+3. tBodyAcc-mean()-X               - Mean Body Linear Acceleration - X - time domain (normalized and bounded within [-1;1]).
+4. tBodyAcc-mean()-Y               - Mean Body Linear Acceleration - Y - time domain (normalized and bounded within [-1;1]).
+5. tBodyAcc-mean()-Z               - Mean Body Linear Acceleration - Z - time domain (normalized and bounded within [-1;1]).
+6. tBodyAcc-std()-X                - Standard Deviation Body Linear Acceleration - X - time domain (normalized and bounded within [-1;1]).
+7. tBodyAcc-std()-Y                - Standard Deviation Body Linear Acceleration - Y - time domain (normalized and bounded within [-1;1]).
+8. tBodyAcc-std()-Z                - Standard Deviation Body Linear Acceleration - Z - time domain (normalized and bounded within [-1;1]).
+9. tGravityAcc-mean()-X            - Mean Gravity Linear Acceleration - X - time domain (normalized and bounded within [-1;1]).
+10. tGravityAcc-mean()-Y            - Mean Gravity Linear Acceleration - Y - time domain (normalized and bounded within [-1;1]).
+11. tGravityAcc-mean()-Z            - Mean Gravity Linear Acceleration - Z - time domain (normalized and bounded within [-1;1]).
+12. tGravityAcc-std()-X             - Standard Deviation Gravity Linear Acceleration - X - time domain (normalized and bounded within [-1;1]).
+13. tGravityAcc-std()-Y             - Standard Deviation Gravity Linear Acceleration - Y - time domain (normalized and bounded within [-1;1]).
+14. tGravityAcc-std()-Z             - Standard Deviation Gravity Linear Acceleration - Z - time domain (normalized and bounded within [-1;1]).
+15. tBodyAccJerk-mean()-X           - Mean Jerk Signal Body Linear Acceleration - X - time domain (normalized and bounded within [-1;1]).
+16. tBodyAccJerk-mean()-Y           - Mean Jerk Signal Body Linear Acceleration - Y - time domain (normalized and bounded within [-1;1]).
+17. tBodyAccJerk-mean()-Z           - Mean Jerk Signal Body Linear Acceleration - Z - time domain (normalized and bounded within [-1;1]).
+18. tBodyAccJerk-std()-X            - Standard Deviation Jerk Signal Body Linear Acceleration - X - time domain (normalized and bounded within [-1;1]).
+19. tBodyAccJerk-std()-Y            - Standard Deviation Jerk Signal Body Linear Acceleration - Y - time domain (normalized and bounded within [-1;1]).
+20. tBodyAccJerk-std()-Z            - Standard Deviation Jerk Signal Body Linear Acceleration - Z - time domain (normalized and bounded within [-1;1]).
+21. tBodyGyro-mean()-X              - Mean Body Angular Acceleration - X - time domain (normalized and bounded within [-1;1]).
+22. tBodyGyro-mean()-Y              - Mean Body Angular Acceleration - Y - time domain (normalized and bounded within [-1;1]).
+23. tBodyGyro-mean()-Z              - Mean Body Angular Acceleration - Z - time domain (normalized and bounded within [-1;1]).
+24. tBodyGyro-std()-X               - Standard Deviation Body Angular Acceleration - X - time domain (normalized and bounded within [-1;1]).
+25. tBodyGyro-std()-Y               - Standard Deviation Body Angular Acceleration - Y - time domain (normalized and bounded within [-1;1]).
+26. tBodyGyro-std()-Z               - Standard Deviation Body Angular Acceleration - Z - time domain (normalized and bounded within [-1;1]).
+27. tBodyGyroJerk-mean()-X          - Mean Jerk Signal Body Angular Acceleration - X - time domain (normalized and bounded within [-1;1]).
+28. tBodyGyroJerk-mean()-Y          - Mean Jerk Signal Body Angular Acceleration - Y - time domain (normalized and bounded within [-1;1]).
+29. tBodyGyroJerk-mean()-Z          - Mean Jerk Signal Body Angular Acceleration - Z - time domain (normalized and bounded within [-1;1]).
+30. tBodyGyroJerk-std()-X           - Standard Deviation Jerk Signal Body Angular Acceleration - X - time domain (normalized and bounded within [-1;1]).
+31. tBodyGyroJerk-std()-Y           - Standard Deviation Jerk Signal Body Angular Acceleration - Y - time domain (normalized and bounded within [-1;1]).
+32. tBodyGyroJerk-std()-Z           - Standard Deviation Jerk Signal Body Angular Acceleration - Z - time domain (normalized and bounded within [-1;1]).
+33. tBodyAccMag-mean()              - Mean Magnitude Body Linear Acceleration - time domain (normalized and bounded within [-1;1]).
+34. tBodyAccMag-std()               - Standard Deviation Magnitude Body Linear Acceleration - time domain (normalized and bounded within [-1;1]).
+35. tGravityAccMag-mean()           - Mean Magnitude Gravity Linear Acceleration - time domain (normalized and bounded within [-1;1]).
+36. tGravityAccMag-std()            - Standard Deviation Magnitude Gravity Linear Acceleration - time domain (normalized and bounded within [-1;1]).
+37. tBodyAccJerkMag-mean()          - Mean Magnitude Jerk Signal Body Linear Acceleration - time domain (normalized and bounded within [-1;1]).
+38. tBodyAccJerkMag-std()           - Standard Deviation Magnitude Jerk Signal Body Linear Acceleration - time domain (normalized and bounded within [-1;1]).
+39. tBodyGyroMag-mean()             - Mean Magnitude Body Angular Acceleration - time domain (normalized and bounded within [-1;1]).
+40. tBodyGyroMag-std()              - Standard Deviation Magnitude Body Angular Acceleration - time domain (normalized and bounded within [-1;1]).
+41. tBodyGyroJerkMag-mean()         - Mean Magnitude Jerk Signal Body Angular Acceleration - time domain (normalized and bounded within [-1;1]).
+42. tBodyGyroJerkMag-std()          - Standard Deviation Magnitude Jerk Signal Body Angular Acceleration - time domain (normalized and bounded within [-1;1]).
+43. fBodyAcc-mean()-X               - Mean Body Linear Acceleration - X - frequency domain (normalized and bounded within [-1;1]).
+44. fBodyAcc-mean()-Y               - Mean Body Linear Acceleration - Y - frequency domain (normalized and bounded within [-1;1]).
+45. fBodyAcc-mean()-Z               - Mean Body Linear Acceleration - Z - frequency domain (normalized and bounded within [-1;1]).
+46. fBodyAcc-std()-X                - Standard Deviation Body Linear Acceleration - X - frequency domain (normalized and bounded within [-1;1]).
+47. fBodyAcc-std()-Y                - Standard Deviation Body Linear Acceleration - Y - frequency domain (normalized and bounded within [-1;1]).
+48. fBodyAcc-std()-Z                - Standard Deviation Body Linear Acceleration - Z - frequency domain (normalized and bounded within [-1;1]).
+49. fBodyAcc-meanFreq()-X           - Weighted Average of the Frequency Components Body Linear Acceleration - X - frequency domain (normalized and bounded within [-1;1]).
+50. fBodyAcc-meanFreq()-Y           - Weighted Average of the Frequency Components Body Linear Acceleration - Y - frequency domain (normalized and bounded within [-1;1]).
+51. fBodyAcc-meanFreq()-Z           - Weighted Average of the Frequency Components Body Linear Acceleration - Z - frequency domain (normalized and bounded within [-1;1]).
+52. fBodyAccJerk-mean()-X           - Mean Jerk Signal Body Linear Acceleration - X - frequency domain (normalized and bounded within [-1;1]).
+53. fBodyAccJerk-mean()-Y           - Mean Jerk Signal Body Linear Acceleration - Y - frequency domain (normalized and bounded within [-1;1]).
+54. fBodyAccJerk-mean()-Z           - Mean Jerk Signal Body Linear Acceleration - Z - frequency domain (normalized and bounded within [-1;1]).
+55. fBodyAccJerk-std()-X            - Standard Deviation Jerk Signal Body Linear Acceleration - X - frequency domain (normalized and bounded within [-1;1]).
+56. fBodyAccJerk-std()-Y            - Standard Deviation Jerk Signal Body Linear Acceleration - Y - frequency domain (normalized and bounded within [-1;1]).
+57. fBodyAccJerk-std()-Z            - Standard Deviation Jerk Signal Body Linear Acceleration - Z - frequency domain (normalized and bounded within [-1;1]).
+58. fBodyAccJerk-meanFreq()-X       - Weighted Average of the Frequency Components Jerk Signal Body Linear Acceleration - X - frequency domain (normalized and bounded within [-1;1]).
+59. fBodyAccJerk-meanFreq()-Y       - Weighted Average of the Frequency Components Jerk Signal Body Linear Acceleration - Y - frequency domain (normalized and bounded within [-1;1]).
+60. fBodyAccJerk-meanFreq()-Z       - Weighted Average of the Frequency Components Jerk Signal Body Linear Acceleration - Z - frequency domain (normalized and bounded within [-1;1]).
+61. fBodyGyro-mean()-X              - Mean Body Angular Acceleration - X - frequency domain (normalized and bounded within [-1;1]).
+62. fBodyGyro-mean()-Y              - Mean Body Angular Acceleration - Y - frequency domain (normalized and bounded within [-1;1]).
+63. fBodyGyro-mean()-Z              - Mean Body Angular Acceleration - Z - frequency domain (normalized and bounded within [-1;1]).
+64. fBodyGyro-std()-X               - Standard Deviation Body Angular Acceleration - X - frequency domain (normalized and bounded within [-1;1]).
+65. fBodyGyro-std()-Y               - Standard Deviation Body Angular Acceleration - Y - frequency domain (normalized and bounded within [-1;1]).
+66. fBodyGyro-std()-Z               - Standard Deviation Body Angular Acceleration - Z - frequency domain (normalized and bounded within [-1;1]).
+67. fBodyGyro-meanFreq()-X          - Weighted Average of the Frequency Components Body Angular Acceleration - X - frequency domain (normalized and bounded within [-1;1]).
+68. fBodyGyro-meanFreq()-Y          - Weighted Average of the Frequency Components Body Angular Acceleration - Y - frequency domain (normalized and bounded within [-1;1]).
+69. fBodyGyro-meanFreq()-Z          - Weighted Average of the Frequency Components Body Angular Acceleration - Z - frequency domain (normalized and bounded within [-1;1]).
+70. fBodyAccMag-mean()              - Mean Magnitude Body Linear Acceleration - frequency domain (normalized and bounded within [-1;1]).
+71. fBodyAccMag-std()               - Standard Deviation Magnitude Body Linear Acceleration - frequency domain (normalized and bounded within [-1;1]).
+72. fBodyAccMag-meanFreq()          - Weighted Average of the Frequency Components Magnitude Body Linear Acceleration - frequency domain (normalized and bounded within [-1;1]).
+73. fBodyBodyAccJerkMag-mean()      - Mean Magnitude Jerk Signal Body Linear Acceleration - frequency domain (normalized and bounded within [-1;1]).
+74. fBodyBodyAccJerkMag-std()       - Standard Deviation Magnitude Jerk Signal Body Linear Acceleration - frequency domain (normalized and bounded within [-1;1]).
+75. fBodyBodyAccJerkMag-meanFreq()  - Weighted Average of the Frequency Components Magnitude Jerk Signal Body Linear Acceleration - frequency domain (normalized and bounded within [-1;1]).
+76. fBodyBodyGyroMag-mean()         - Mean Magnitude Body Angular Acceleration - frequency domain (normalized and bounded within [-1;1]).
+77. fBodyBodyGyroMag-std()          - Standard Deviation Magnitude Body Angular Acceleration - frequency domain (normalized and bounded within [-1;1]).
+78. fBodyBodyGyroMag-meanFreq()     - Weighted Average of the Frequency Components Magnitude Body Angular Acceleration - frequency domain (normalized and bounded within [-1;1]).
+79. fBodyBodyGyroJerkMag-mean()     - Mean Magnitude Jerk Signal Body Angular Acceleration - frequency domain (normalized and bounded within [-1;1]).
+80. fBodyBodyGyroJerkMag-std()      - Standard Deviation Magnitude Jerk Signal Body Angular Acceleration - frequency domain (normalized and bounded within [-1;1]).
+81. fBodyBodyGyroJerkMag-meanFreq() - Weighted Average of the Frequency Components Magnitude Jerk Signal Body Angular Acceleration - frequency domain (normalized and bounded within [-1;1]).
